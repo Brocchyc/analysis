@@ -1,19 +1,21 @@
 ---
 title: 数学分析1——隐函数定理及动力系统初步
-date: 2021-07-11 13:06:00
+date: 2021-07-11 16:32:00
 tags: analysis
 mathjax: true
+
 ---
+
 ## 隐函数定理
 ### 压缩映像原理
 完备度量空间 $X$ 及映射 $f:X\rightarrow X$ ，若 $f$ 是压缩映射，即：
 $$
-\exist 0<c<1\quad\forall x,y\in X\quad s.t.\quad d(f(x),f(y))\leq c\cdot d(x,y) 
+\exists 0<c<1\quad\forall x,y\in X\quad s.t.\quad d(f(x),f(y))\leq c\cdot d(x,y) 
 $$
 则 $f$ 有唯一不动点 $x_0$
 
 ### 反函数定理 
-映射 $f：\mathbb{R}^m\rightarrow \mathbb{R}^n\quad s.t.\quad f(x_0)=y_0$ 在 $x_0$ 邻域内连续可微且在 $x_0$ 处Jacobi矩阵非异，则 $\exist y_0$ 邻域，$f$ 在其上有连续可微反函数 $g(y)=x$
+映射 $f：\mathbb{R}^m\rightarrow \mathbb{R}^n\quad s.t.\quad f(x_0)=y_0$ 在 $x_0$ 邻域内连续可微且在 $x_0$ 处Jacobi矩阵非异，则 $\exists y_0$ 邻域，$f$ 在其上有连续可微反函数 $g(y)=x$
 
 证明：
 
